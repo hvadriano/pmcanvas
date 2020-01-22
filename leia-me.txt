@@ -1,0 +1,9 @@
+1- abrir o arquivo "aplication/config/config.php"
+	na linha 17, em "base_url" => corrigir a porta do seu servidor
+
+2- abrir o arquivo "aplication/config/database.php"
+	na linha 52 => informar o usuário do banco de dados
+	na linha 53 => informar a senha do usuário do banco de dados
+	na linha 54 => informar o banco de dados
+	
+
