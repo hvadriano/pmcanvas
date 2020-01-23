@@ -1,0 +1,160 @@
+body {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+#footer-template {
+	min-height: 50px;
+	background-color: #e7e7e7;
+}
+
+#main-container {
+	min-height: 525px;
+}
+
+/*----- definição do login -------------------------------------------------------------------------*/
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/*----- definição do login (FIM) --------------------------------------------------------------------*/
+
+
+.pmcarea {
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 20%;
+}
+
+.pmcarea2 {
+	padding-left: 0px;
+	padding-right: 0px; 
+	width: 40%
+}
+
+.pmcarea3 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.pmcarea_item {
+	border: 1px solid #cdcdcd;
+	margin-bottom: 10px;
+}
+
+.pmcarea_item2 {
+	border: 1px solid #cdcdcd;
+	margin-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 5px;
+}
+
+div#content.row div.col-md-3.pmcarea div div.col-md-12 h2 {
+	font-size: 14px;
+	margin: 4px;
+}
+
+html body div#main-container.container div#content.row div.col-md-6.pmcarea2 div div.col-md-6.pmcarea3 div div.col-md-12.pmcarea_item2 h2 { font-size: 14px; margin: 4px; }
+html body div#main-container.container div#content.row div.col-md-6.pmcarea2 div div.col-md-12.pmcarea3 div div.col-md-12.pmcarea_item2 h2 { font-size: 14px; margin: 4px; }
+
+#pmcarea_justificativa {
+	min-height: 200px;
+}
+#pmcarea_objetivos {
+	min-height: 200px;
+}
+#pmcarea_beneficios {
+	min-height: 200px;
+}
+#pmcarea_produto {
+	min-height: 200px;
+}
+#pmcarea_stakeholders {
+	min-height: 200px;
+}
+#pmcarea_equipe {
+	min-height: 200px;
+}
+#pmcarea_premissas {
+	min-height: 200px;
+}
+#pmcarea_grupoentregas {
+	min-height: 200px;
+}
+#pmcarea_riscos {
+	min-height: 200px;
+}
+#pmcarea_linhatempo {
+	min-height: 200px;
+}
+#pmcarea_restricoes {
+	min-height: 200px;
+}
+#pmcarea_custos {
+	min-height: 200px;
+}
+#pmcarea_requisitos {
+	min-height: 410px;
+}
+
+div.lista_sorteavel { cursor: move; list-style-type: none; padding: 4px; margin: 4px; color: #000000 }
+
+.pmcareahover {
+	background: #f0f0f0;
+	min-height: 140px;
+}
+
+.border-required {
+	border: 1px solid red;
+}
+
+@media (max-width: 768px) {
+	
+	.btn-sair-mobile {
+		float: right;
+    	padding-right: 15px;
+    	top: -37px;
+	}
+}
+
+h2 {
+    background-color: #ededed;
+    border: 1px solid #cccccc;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2px 2px 4px;
+}
