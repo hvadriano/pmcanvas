@@ -31,11 +31,11 @@ class Home extends CI_Controller {
 		
 		
 		$data['page_title']  = "Home Sistema Administrador";
-        $data['content'] = "Sistema Administrador " + MENU_TITLE;
+        $data['content'] = "Sistema Administrador ". MENU_TITLE;
 
         if(isset($result['temPermissao'])) $data['temPermissao'] = $result['temPermissao'];
         
-        // adicionando o mapa contendo os projetos do usuário -----------------
+        // adicionando o mapa contendo os projetos do usuï¿½rio -----------------
         $this->load->model('projetomodel', '', true);
         $data[ 'projetos' ] = $this->projetomodel->getByUserId( $data[ 'usuario' ][ 'usu_id' ] );
         
