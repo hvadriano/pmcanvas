@@ -22,7 +22,7 @@
 	
 	<div class="col-md-12">
 		<p>
-			<label for="descricao">Descri&ccedil;&atilde;o:</label>&nbsp;<textarea rows="2" cols="78" id="descricao" name="descricao"></textarea>
+			<label for="descricao">Descri&ccedil;&atilde;o:</label>&nbsp;<textarea rows="2" cols="60" id="descricao" name="descricao"></textarea>
 		</p>
 	</div><br clear="both">
 	
