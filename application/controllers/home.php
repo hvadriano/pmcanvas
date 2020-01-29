@@ -20,7 +20,10 @@ class Home extends CI_Controller {
 		
 		$data['page_title']  = "Home";
         $data['content'] = "Bem Vindo ao site Companhia de Arte!";
-        
+		
+		//$this->load->library('encrypt');
+		//$data['msg_cripto'] = $this->encrypt->encode("1");
+		//$data['msg_decripto'] = $this->encrypt->decode($data['msg_cripto']);      
       
         // Load View
         $this->template->show('home', $data);
