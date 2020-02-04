@@ -2,7 +2,7 @@ $(document).ready(function(){
 	
 	var $area_hover = null;
 	
-	// area de origem onde o mouse está
+	// area de origem onde o mouse estï¿½
 	$('.pmcareahover').click(function() {
 		//console.log(this.id);
 		$origem = this.id;
@@ -20,7 +20,7 @@ $(document).ready(function(){
 		}
 	});
 	
-	// adiciona um crad para na área desejada -----------------------------------------
+	// adiciona um crad para na ï¿½rea desejada -----------------------------------------
 	$('.addcard').click(function() {
 		var $this = $( this );
 		var $div_area = $this.parents('div').find('.pmcareahover').attr('id');
@@ -34,7 +34,7 @@ $(document).ready(function(){
 		$( '#divArea' ).val($div_area);
 		$( '#modalTitle' ).html("Post-it:&nbsp;" + $title);
 		
-		// limpando os campos do novo formulário
+		// limpando os campos do novo formulï¿½rio
 		$( '#cardId' ).val("0");
 		$( '#post' ).val("");
 		$( '#descricao' ).val("");
@@ -53,7 +53,7 @@ $(document).ready(function(){
 			var $destino = $(this).attr("id");
 			var li = $(this).find('li');
 			
-			if( typeof($origem)  === "undefined" ) location.reload(); // para recarregar a página quando houver este erro
+			if( typeof($origem)  === "undefined" ) location.reload(); // para recarregar a pï¿½gina quando houver este erro
 			
 			//console.log(li);
 			

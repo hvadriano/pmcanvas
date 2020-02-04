@@ -16,7 +16,7 @@ body {
 	min-height: 525px;
 }
 
-/*----- definição do login -------------------------------------------------------------------------*/
+/*----- definiï¿½ï¿½o do login -------------------------------------------------------------------------*/
 .form-signin {
   max-width: 330px;
   padding: 15px;
@@ -51,7 +51,7 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-/*----- definição do login (FIM) --------------------------------------------------------------------*/
+/*----- definiï¿½ï¿½o do login (FIM) --------------------------------------------------------------------*/
 
 
 .pmcarea {
@@ -136,7 +136,23 @@ div.lista_sorteavel { cursor: move; list-style-type: none; padding: 4px; margin:
 .pmcareahover {
 	background: #f0f0f0;
 	min-height: 140px;
+	overflow-y: scroll; /* PODE ALTERAR PARA "hidden" CASO NÃƒO QUEIRA SCROLL VERTICAL */
+	
 }
+#pmcarea_requisitos .pmcareahover { max-height: 350px; }
+#pmcarea_justificativa .pmcareahover { max-height: 140px; }
+#pmcarea_objetivos .pmcareahover { max-height: 140px; }
+#pmcarea_beneficios .pmcareahover { max-height: 140px; }
+#pmcarea_produto .pmcareahover { max-height: 140px; }
+#pmcarea_stakeholders .pmcareahover { max-height: 140px; }
+#pmcarea_equipe .pmcareahover { max-height: 140px; }
+#pmcarea_premissas .pmcareahover { max-height: 140px; }
+#pmcarea_grupoentregas .pmcareahover { max-height: 140px; }
+#pmcarea_riscos .pmcareahover { max-height: 140px; }
+#pmcarea_linhatempo .pmcareahover { max-height: 140px; }
+#pmcarea_restricoes .pmcareahover { max-height: 140px; }
+#pmcarea_custos .pmcareahover { max-height: 140px; }
+
 
 .border-required {
 	border: 1px solid red;

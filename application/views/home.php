@@ -13,7 +13,7 @@
         </ul>
         </p>
         <p>Camadas Model e Controller utilizando o framework PHP Codeigniter.</p>
-        <p>Camada View com interfaces amig&aacute;veis usando recursos CSS, Ajax e Bootstrap.</p>
+        <p>Camada View usando recursos CSS, Ajax e Bootstrap.</p>
         <p>Base de dados MySql.</p>
       </div>
 
